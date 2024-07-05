@@ -10,5 +10,6 @@ schedule function spawn:loops/1_second 1s replace
 schedule function spawn:loops/10_seconds 10s replace
 schedule function spawn:loops/1_minute 60s replace
 schedule function spawn:loops/10_minutes 600s replace
+schedule function spawn:loops/1_hour 3600s replace
 
 say Loaded!
