@@ -21,6 +21,9 @@
                         "entity": "this",
                         "predicate": {
                             "type": "minecraft:player",
+                            "gamemode": [
+                                "adventure"
+                            ],
                             "location": {
                                 "position": {
                                     "x": {

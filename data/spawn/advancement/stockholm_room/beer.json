@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:cobweb"
+            "id": "minecraft:flower_pot",
+            "count": 18
         },
-        "title": "Fearless",
-        "description": "Ride the giant cave spider",
-        "frame": "challenge",
+        "title": "Secret drink",
+        "description": "I swear I'm not an alcoholic!",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "spawn:root",
+    "parent": "spawn:stockholm_room/fireplace",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",
@@ -24,27 +24,20 @@
                             "gamemode": [
                                 "adventure"
                             ],
-                            "stepping_on": {
+                            "location": {
                                 "position": {
                                     "x": {
-                                        "min": 390,
-                                        "max": 400
+                                        "min": 20,
+                                        "max": 25
                                     },
                                     "y": {
-                                        "min": -44,
-                                        "max": -41
+                                        "min": -15,
+                                        "max": -12
                                     },
                                     "z": {
-                                        "min": -203,
-                                        "max": -193
+                                        "min": 10,
+                                        "max": 13
                                     }
-                                },
-                                "block": {
-                                    "blocks": [
-                                        "minecraft:coal_block",
-                                        "minecraft:black_wool",
-                                        "minecraft:obsidian"
-                                    ]
                                 }
                             }
                         }

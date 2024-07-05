@@ -21,6 +21,9 @@
                         "entity": "this",
                         "predicate": {
                             "type": "minecraft:player",
+                            "gamemode": [
+                                "adventure"
+                            ],
                             "stepping_on": {
                                 "position": {
                                     "x": {
@@ -36,7 +39,6 @@
                                         "max": -411
                                     }
                                 },
-                                "dimension": "minecraft:overworld",
                                 "block": {
                                     "blocks": [
                                         "minecraft:stone"

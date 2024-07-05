@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:cobweb"
+            "id": "minecraft:cauldron"
         },
-        "title": "Fearless",
-        "description": "Ride the giant cave spider",
+        "title": "Invite your friends over",
+        "description": "You found a cozy bath, and now you can't leave",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "spawn:root",
+    "parent": "spawn:stockholm_room/bedroom",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",
@@ -24,27 +24,20 @@
                             "gamemode": [
                                 "adventure"
                             ],
-                            "stepping_on": {
+                            "location": {
                                 "position": {
                                     "x": {
-                                        "min": 390,
-                                        "max": 400
+                                        "min": 25.425,
+                                        "max": 25.575
                                     },
-                                    "y": {
-                                        "min": -44,
-                                        "max": -41
-                                    },
+                                    "y": -0.75,
                                     "z": {
-                                        "min": -203,
-                                        "max": -193
+                                        "min": 14.425,
+                                        "max": 14.575
                                     }
                                 },
                                 "block": {
-                                    "blocks": [
-                                        "minecraft:coal_block",
-                                        "minecraft:black_wool",
-                                        "minecraft:obsidian"
-                                    ]
+                                    "blocks": "minecraft:water_cauldron"
                                 }
                             }
                         }

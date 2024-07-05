@@ -1,16 +1,15 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:cobweb"
+            "id": "minecraft:iron_bars"
         },
-        "title": "Fearless",
-        "description": "Ride the giant cave spider",
-        "frame": "challenge",
+        "title": "Cozy underground room",
+        "description": "The ideal place to experiment with Stockholm syndrome",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "spawn:root",
+    "parent": "spawn:stockholm_room/beer",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",
@@ -24,27 +23,20 @@
                             "gamemode": [
                                 "adventure"
                             ],
-                            "stepping_on": {
+                            "location": {
                                 "position": {
                                     "x": {
-                                        "min": 390,
-                                        "max": 400
+                                        "min": 21,
+                                        "max": 24
                                     },
                                     "y": {
-                                        "min": -44,
-                                        "max": -41
+                                        "min": -15,
+                                        "max": -12
                                     },
                                     "z": {
-                                        "min": -203,
-                                        "max": -193
+                                        "min": 4,
+                                        "max": 6
                                     }
-                                },
-                                "block": {
-                                    "blocks": [
-                                        "minecraft:coal_block",
-                                        "minecraft:black_wool",
-                                        "minecraft:obsidian"
-                                    ]
                                 }
                             }
                         }

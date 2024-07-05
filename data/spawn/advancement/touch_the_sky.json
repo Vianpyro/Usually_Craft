@@ -40,9 +40,7 @@
                                         "min": -1000,
                                         "max": 1000
                                     }
-                                },
-                                "dimension": "minecraft:overworld",
-                                "can_see_sky": true
+                                }
                             }
                         }
                     }

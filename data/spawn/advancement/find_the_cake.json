@@ -17,6 +17,9 @@
             "conditions": {
                 "player": {
                     "type": "minecraft:player",
+                    "gamemode": [
+                        "adventure"
+                    ],
                     "location": {
                         "position": {
                             "x": {
@@ -28,8 +31,7 @@
                                 "min": 18,
                                 "max": 20
                             }
-                        },
-                        "dimension": "minecraft:overworld"
+                        }
                     }
                 }
             }
