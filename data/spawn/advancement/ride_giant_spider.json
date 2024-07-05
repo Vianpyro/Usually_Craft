@@ -1,0 +1,55 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cobweb"
+        },
+        "title": "Fearless",
+        "description": "Ride the giant cave spider",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "parent": "spawn:root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "stepping_on": {
+                                "position": {
+                                    "x": {
+                                        "min": 390,
+                                        "max": 400
+                                    },
+                                    "y": {
+                                        "min": -44,
+                                        "max": -41
+                                    },
+                                    "z": {
+                                        "min": -203,
+                                        "max": -193
+                                    }
+                                },
+                                "dimension": "minecraft:overworld",
+                                "can_see_sky": false,
+                                "block": {
+                                    "blocks": [
+                                        "minecraft:coal_block",
+                                        "minecraft:black_wool",
+                                        "minecraft:obsidian"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

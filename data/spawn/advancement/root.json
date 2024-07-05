@@ -3,7 +3,10 @@
         "icon": {
             "id": "minecraft:emerald_block"
         },
-        "title": "Welcome!",
+        "title": {
+            "text": "Welcome!",
+            "bold": true
+        },
         "description": "Join the server for the first time",
         "frame": "goal",
         "show_toast": false,
