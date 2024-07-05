@@ -1,0 +1,5 @@
+scoreboard objectives add find_issue_audio dummy "Hearing"
+scoreboard objectives add find_issue_and_fix dummy "Touch"
+scoreboard objectives add find_issue_gameplay dummy "Taste"
+scoreboard objectives add find_issue_perf dummy "Smell"
+scoreboard objectives add find_issue_visual dummy "Sight"

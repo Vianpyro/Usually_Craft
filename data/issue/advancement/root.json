@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:ominous_trial_key"
+        },
+        "title": "Intuitive Troubleshooter",
+        "description": "You've begun your journey identifying and/or fixing issues",
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

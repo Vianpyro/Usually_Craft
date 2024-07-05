@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:apple"
+        },
+        "title": "Flavor Finder",
+        "description": "You're suggesting flavors that enhance the known culinary delights.",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "issue:root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

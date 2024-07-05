@@ -5,4 +5,4 @@ execute if loaded -13 -8 51 run function spawn:easter_egg/demonic_crypt/open_doo
 schedule function spawn:easter_egg/demonic_crypt/close_door 60s replace
 
 # At the end reset the schedule
-schedule function spawn:loops/1_hour 3600s replace
+schedule function spawn:loop/1_hour 3600s replace

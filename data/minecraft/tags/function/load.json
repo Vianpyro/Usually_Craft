@@ -1,5 +1,6 @@
 {
     "values": [
+        "issue:load",
         "main:load",
         "spawn:load"
     ]

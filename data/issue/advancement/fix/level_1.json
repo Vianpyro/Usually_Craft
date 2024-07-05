@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:debug_stick"
+        },
+        "title": "Light Touch",
+        "description": "Your delicate touch has resolved the first issue. The server is better already!",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "issue:root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
