@@ -13,10 +13,10 @@
     },
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:tick"
         }
     },
     "rewards": {
-        "function": "spawn:login/new_message"
+        "function": "spawn:login/first_time_joined"
     }
 }
