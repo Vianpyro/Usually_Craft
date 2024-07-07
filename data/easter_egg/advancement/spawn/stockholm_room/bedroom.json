@@ -1,16 +1,15 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:cauldron"
+            "id": "minecraft:iron_bars"
         },
-        "title": "Invite your friends over",
-        "description": "You found a cozy bath, and now you can't leave",
-        "frame": "challenge",
+        "title": "Cozy underground room",
+        "description": "The ideal place to experiment with Stockholm syndrome",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "spawn:stockholm_room/bedroom",
+    "parent": "easter_egg:spawn/stockholm_room/beer",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",
@@ -24,17 +23,17 @@
                             "location": {
                                 "position": {
                                     "x": {
-                                        "min": 25.425,
-                                        "max": 25.575
+                                        "min": 21,
+                                        "max": 24
                                     },
-                                    "y": -0.75,
+                                    "y": {
+                                        "min": -15,
+                                        "max": -12
+                                    },
                                     "z": {
-                                        "min": 14.425,
-                                        "max": 14.575
+                                        "min": 4,
+                                        "max": 6
                                     }
-                                },
-                                "block": {
-                                    "blocks": "minecraft:water_cauldron"
                                 }
                             }
                         }

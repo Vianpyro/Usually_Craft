@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:wind_charge"
+            "id": "minecraft:wither_skeleton_skull"
         },
-        "title": "Touch the sky",
-        "description": "Climb all the way up the the highest peak",
+        "title": "Rip and Tear",
+        "description": "Until it is done",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "spawn:root",
+    "parent": "easter_egg:spawn/demonic_crypt/entrance",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",
@@ -20,19 +20,20 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
+                            "type": "minecraft:player",
                             "location": {
                                 "position": {
                                     "x": {
-                                        "min": -1000,
-                                        "max": 1000
+                                        "min": -30,
+                                        "max": -15
                                     },
                                     "y": {
-                                        "min": 175,
-                                        "max": 320
+                                        "min": -21,
+                                        "max": -15
                                     },
                                     "z": {
-                                        "min": -1000,
-                                        "max": 1000
+                                        "min": 39,
+                                        "max": 47
                                     }
                                 }
                             }
@@ -41,5 +42,8 @@
                 ]
             }
         }
+    },
+    "rewards": {
+        "function": "easter_egg:spawn/demonic_crypt/enter_effect"
     }
 }

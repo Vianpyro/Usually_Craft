@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:wither_skeleton_skull"
+            "id": "minecraft:raw_gold_block"
         },
-        "title": "Rip and Tear",
-        "description": "Until it is done",
+        "title": "One does not simply walk into Mordor",
+        "description": "You've found the secret treasure room",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "spawn:demonic_crypt/entrance",
+    "parent": "easter_egg:spawn/slimy_cave/maze",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",
@@ -24,16 +24,16 @@
                             "location": {
                                 "position": {
                                     "x": {
-                                        "min": -30,
-                                        "max": -15
+                                        "min": -247,
+                                        "max": -235
                                     },
                                     "y": {
-                                        "min": -21,
-                                        "max": -15
+                                        "min": -24,
+                                        "max": -19
                                     },
                                     "z": {
-                                        "min": 39,
-                                        "max": 47
+                                        "min": -65,
+                                        "max": -53
                                     }
                                 }
                             }
@@ -42,8 +42,5 @@
                 ]
             }
         }
-    },
-    "rewards": {
-        "function": "spawn:easter_egg/demonic_crypt/enter_effect"
     }
 }

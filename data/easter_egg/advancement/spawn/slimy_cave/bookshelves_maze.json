@@ -9,7 +9,7 @@
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "spawn:slimy_cave/maze",
+    "parent": "easter_egg:spawn/slimy_cave/maze",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",

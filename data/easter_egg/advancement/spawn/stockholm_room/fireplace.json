@@ -1,15 +1,15 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:redstone"
+            "id": "minecraft:campfire"
         },
-        "title": "Something's wrong...",
-        "description": "...I can feel it",
+        "title": "Fireplace Folly",
+        "description": "You uncovered a mysterious passage behind the fireplace",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "spawn:root",
+    "parent": "easter_egg:spawn/root",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",
@@ -23,13 +23,16 @@
                             "location": {
                                 "position": {
                                     "x": {
-                                        "min": -12,
-                                        "max": -10
+                                        "min": 16.3,
+                                        "max": 17.7
                                     },
-                                    "y": -9,
+                                    "y": {
+                                        "min": -8,
+                                        "max": -7
+                                    },
                                     "z": {
-                                        "min": 50,
-                                        "max": 52
+                                        "min": 13.3,
+                                        "max": 13.7
                                     }
                                 }
                             }

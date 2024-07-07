@@ -1,15 +1,16 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:iron_bars"
+            "id": "minecraft:skeleton_skull"
         },
-        "title": "Cozy underground room",
-        "description": "The ideal place to experiment with Stockholm syndrome",
+        "title": "By the power of Greyskull!",
+        "description": "You've discovered the ancient ritual altar",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "spawn:stockholm_room/beer",
+    "parent": "easter_egg:spawn/slimy_cave/bookshelves_maze",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",
@@ -19,20 +20,19 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:player",
                             "location": {
                                 "position": {
                                     "x": {
-                                        "min": 21,
-                                        "max": 24
+                                        "min": -192,
+                                        "max": -185
                                     },
                                     "y": {
-                                        "min": -15,
-                                        "max": -12
+                                        "min": -35,
+                                        "max": -31
                                     },
                                     "z": {
-                                        "min": 4,
-                                        "max": 6
+                                        "min": -58,
+                                        "max": -49
                                     }
                                 }
                             }

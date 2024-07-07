@@ -10,7 +10,7 @@
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "spawn:stockholm_room/fireplace",
+    "parent": "easter_egg:spawn/stockholm_room/fireplace",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",
