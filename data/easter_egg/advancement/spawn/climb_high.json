@@ -20,23 +20,19 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
+                            "type": "minecraft:player",
                             "location": {
                                 "position": {
-                                    "x": {
-                                        "min": -1000,
-                                        "max": 1000
-                                    },
                                     "y": {
-                                        "min": 175,
-                                        "max": 320
-                                    },
-                                    "z": {
-                                        "min": -1000,
-                                        "max": 1000
+                                        "min": 175
                                     }
                                 }
                             }
                         }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "spawn:in_spawn"
                     }
                 ]
             }
