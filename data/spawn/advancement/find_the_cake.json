@@ -17,9 +17,6 @@
             "conditions": {
                 "player": {
                     "type": "minecraft:player",
-                    "gamemode": [
-                        "adventure"
-                    ],
                     "location": {
                         "position": {
                             "x": {

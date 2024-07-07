@@ -20,12 +20,6 @@
                         "entity": "this",
                         "predicate": {
                             "type": "minecraft:player",
-                            "type_specific": {
-                                "type": "minecraft:player",
-                                "gamemode": [
-                                    "adventure"
-                                ]
-                            },
                             "location": {
                                 "position": {
                                     "x": {
