@@ -5,6 +5,7 @@
         },
         "title": "Easter eggs",
         "description": "Find your first easter egg",
+        "frame": "challenge",
         "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png"
     },
     "criteria": {
