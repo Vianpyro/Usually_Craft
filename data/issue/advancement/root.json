@@ -5,7 +5,7 @@
         },
         "title": "Intuitive Troubleshooter",
         "description": "You've begun your journey identifying and/or fixing issues",
-        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
     },
     "criteria": {
         "requirement": {
