@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:emerald_block"
         },
-        "title": "A new beginning",
-        "description": "Hello There.",
+        "title": "Usually Craft",
+        "description": "Hello There!",
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false,
