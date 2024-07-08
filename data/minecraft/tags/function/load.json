@@ -1,5 +1,6 @@
 {
     "values": [
+        "easter_egg:load",
         "issue:load",
         "main:load",
         "spawn:load"
