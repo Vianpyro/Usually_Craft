@@ -11,4 +11,7 @@ schedule function spawn:loop/1_minute 60s replace
 schedule function spawn:loop/10_minutes 600s replace
 schedule function spawn:loop/1_hour 3600s replace
 
+# Setup the spawn NPCs
+function spawn:setup/game_entities
+
 say Loaded!
