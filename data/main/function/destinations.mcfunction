@@ -6,3 +6,6 @@ execute if score @s go_to matches 2 run function spawn:teleport_to_spawn
 
 # Reset go_to score
 scoreboard players reset @s go_to
+
+# Revoke go_to advancement
+advancement revoke @s only main:go_to
