@@ -4,7 +4,7 @@
             "id": "minecraft:raw_gold_block"
         },
         "title": "Simply walk into Mordor",
-        "description": "You've found the secret treasure room",
+        "description": "Boromir would be impressed",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
