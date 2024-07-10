@@ -1,3 +1,4 @@
+# Revoke the advancement
 advancement revoke @s only main:interaction_entity/left_click
 
 tag @s add this

@@ -1,3 +1,6 @@
+# Revoke go_to advancement
+advancement revoke @s only main:go_to
+
 # Return to spawn
 execute if score @s go_to matches 1 run function spawn:teleport_to_spawn
 
@@ -12,6 +15,3 @@ execute if score @s go_to matches 4 run function main:money/balance
 
 # Reset go_to score
 scoreboard players set @s go_to 0
-
-# Revoke go_to advancement
-advancement revoke @s only main:go_to
