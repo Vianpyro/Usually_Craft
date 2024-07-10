@@ -1,0 +1,4 @@
+tellraw @s ["",{"text":"You have obtained ","color":"green"},{"score":{"name":"@s","objective":"purse"},"color":"gold"},{"text":" u-coin(s)","color":"green"}]
+scoreboard players operation @s money += @s purse
+scoreboard players set @s purse 0
+advancement revoke @s only main:money/recieve_purse
