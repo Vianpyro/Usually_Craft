@@ -4,7 +4,7 @@
             "id": "minecraft:nautilus_shell"
         },
         "title": "Odysseus",
-        "description": "Listen ot the siren sing",
+        "description": "Listen to the siren sing",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
