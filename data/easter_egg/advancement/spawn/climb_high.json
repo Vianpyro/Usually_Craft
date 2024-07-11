@@ -4,7 +4,7 @@
             "id": "minecraft:wind_charge"
         },
         "title": "Touch the sky",
-        "description": "Climb all the way up the the highest peak",
+        "description": "Climb all the way up the highest peak",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
