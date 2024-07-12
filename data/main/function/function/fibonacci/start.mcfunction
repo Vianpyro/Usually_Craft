@@ -1,8 +1,10 @@
+# execute store result storage minecraft:fibonacci_goal n int 1 run scoreboard players get <target_score> buffer
+
 # Retrieve the goal and reset the storage
 execute store result score fibonacci_goal_n buffer run data get storage minecraft:fibonacci_goal n
 
 # Return 1 if the goal is under 2
-execute if score fibonacci_goal_n buffer matches ..2 run return 1
+execute if score fibonacci_goal_n buffer matches ..1 run return 1
 
 # Return 15'000 if the goal is over 20
 execute if score fibonacci_goal_n buffer matches 20.. run return 11000
