@@ -1,6 +1,5 @@
 # Retrieve the goal and reset the storage
 execute store result score fibonacci_goal_n buffer run data get storage minecraft:fibonacci_goal n
-data remove storage minecraft:fibonacci_goal n
 
 # Return 1 if the goal is under 2
 execute if score fibonacci_goal_n buffer matches ..2 run return run scoreboard players set fibonacci_temp buffer 1
