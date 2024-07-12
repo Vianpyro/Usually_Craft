@@ -13,5 +13,11 @@ execute if score @s go_to matches 3 at @s positioned ^ ^ ^1.5 run function easte
 # Check total owned money
 execute if score @s go_to matches 4 run function main:money/balance
 
+# Teleport to the TNT-Run lobby
+execute if score @s go_to matches 5 run function tntrun:teleport_to_lobby
+
+# Teleport to the TNT-Tag lobby
+execute if score @s go_to matches 6 run function tnttag:teleport_to_lobby
+
 # Reset go_to score
 scoreboard players set @s go_to 0
