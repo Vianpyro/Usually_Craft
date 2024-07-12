@@ -1,5 +1,3 @@
-# execute store result storage minecraft:fibonacci_goal n int 1 run scoreboard players get <target_score> buffer
-
 # Retrieve the goal and reset the storage
 execute store result score fibonacci_goal_n buffer run data get storage minecraft:fibonacci_goal n
 
