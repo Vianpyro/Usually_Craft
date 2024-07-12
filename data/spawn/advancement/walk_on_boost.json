@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "stepping_on": {
+                                "block": {
+                                    "blocks": "minecraft:chiseled_quartz_block"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "spawn:in_spawn"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "spawn:walk_on_boost"
+    }
+}
