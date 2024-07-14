@@ -1,4 +1,4 @@
-data remove storage minecraft:fibonacci_goal n
+data remove storage math:fibonacci n
 scoreboard players reset fibonacci_a buffer
 scoreboard players reset fibonacci_b buffer
 scoreboard players reset fibonacci_current_n buffer
