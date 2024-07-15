@@ -1,1 +1,1 @@
-tellraw @s ["",{"text":"[TNT-Tag] ","color":"gold"},{"text":"Game under development, come back later...","color":"yellow"}]
+function main:message/generic/game_under_development {"source":"TNT-Tag"}
