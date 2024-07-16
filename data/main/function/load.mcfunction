@@ -4,6 +4,9 @@ function main:setup/scores
 # Create the scores
 function spawn:setup/teams
 
+# Setup the NPCs sizes
+function main:npc/size
+
 # Call the loops
 schedule function main:loop/1_second 1s replace
 # schedule function main:loop/10_seconds 10s replace
