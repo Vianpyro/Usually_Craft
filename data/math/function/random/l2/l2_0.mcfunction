@@ -5,4 +5,4 @@ $execute if score @s $(score) matches 193..257 run return run function math:rand
 $execute if score @s $(score) matches 257..321 run return run function math:random/l1/l1_4 {"score":"$(score)"}
 $execute if score @s $(score) matches 321..385 run return run function math:random/l1/l1_5 {"score":"$(score)"}
 $execute if score @s $(score) matches 385..449 run return run function math:random/l1/l1_6 {"score":"$(score)"}
-$execute if score @s $(score) matches 449..513 run return run function math:random/l1/l1_7 {"score":"$(score)"}
+$execute if score @s $(score) matches 449..512 run return run function math:random/l1/l1_7 {"score":"$(score)"}
