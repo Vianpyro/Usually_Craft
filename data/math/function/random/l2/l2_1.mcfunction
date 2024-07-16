@@ -1,9 +1,0 @@
-$execute if score @s $(score) matches 513..577 run return run function math:random/l1/l1_8 {"score":"$(score)"}
-$execute if score @s $(score) matches 577..641 run return run function math:random/l1/l1_9 {"score":"$(score)"}
-$execute if score @s $(score) matches 641..705 run return run function math:random/l1/l1_10 {"score":"$(score)"}
-$execute if score @s $(score) matches 705..769 run return run function math:random/l1/l1_11 {"score":"$(score)"}
-$execute if score @s $(score) matches 769..833 run return run function math:random/l1/l1_12 {"score":"$(score)"}
-$execute if score @s $(score) matches 833..897 run return run function math:random/l1/l1_13 {"score":"$(score)"}
-$execute if score @s $(score) matches 897..961 run return run function math:random/l1/l1_14 {"score":"$(score)"}
-$execute if score @s $(score) matches 961..993 run return run function math:random/l1/l1_15 {"score":"$(score)"}
-$execute if score @s $(score) matches 993..1000 run return run function math:random/l1/l1_15 {"score":"$(score)"}
