@@ -9,3 +9,6 @@ gamemode adventure @s
 
 # Revoke the "under-spawn" advancement
 advancement revoke @s only spawn:under_spawn
+
+# Notify the player that they have been teleported to the spawn point
+function main:message/notice {"source":"Server","message":'"text":"You have been teleported to the spawn"'}
