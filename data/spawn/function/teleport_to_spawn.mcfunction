@@ -6,3 +6,6 @@ tp @s 5 -7 11 90 0
 
 # Set the player game mode to adventure
 gamemode adventure @s
+
+# Revoke the "under-spawn" advancement
+advancement revoke @s only spawn:under_spawn
