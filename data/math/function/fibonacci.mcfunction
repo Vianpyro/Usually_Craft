@@ -1,5 +1,5 @@
 # Retrieve the goal and reset the storage
-execute store result score fibonacci_goal_n buffer run data get storage math:fibonacci n
+$scoreboard players set fibonacci_goal_n buffer $(n)
 
 # Return 1 if the goal is under 2
 execute if score fibonacci_goal_n buffer matches ..1 run return 1
