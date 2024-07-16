@@ -21,3 +21,6 @@ scoreboard objectives add play_time minecraft.custom:minecraft.play_time
 
 # Score for the players roles
 scoreboard objectives add role dummy
+
+# Score for the game reward details
+scoreboard objectives add game_reward dummy
