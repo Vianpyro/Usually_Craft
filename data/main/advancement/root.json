@@ -17,6 +17,6 @@
         }
     },
     "rewards": {
-        "function": "spawn:login/first_time_joined"
+        "function": "main:login/first_time_joined"
     }
 }
