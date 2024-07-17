@@ -1,3 +1,6 @@
+# If the max_ground_coins score is not set do not summon coins
+execute unless score max_ground_coins buffer matches 1.. run return fail
+
 # Count the number of entities
 execute store result score ground_coins_count buffer run execute if entity @e[type=interaction,tag=ground_coin_interaction]
 
