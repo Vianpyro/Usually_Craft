@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:wind_charge"
         },
-        "title": "Touch the sky",
-        "description": "Climb all the way up the highest peak",
+        "title": "The sky is the limit",
+        "description": "For some, who are travelers, the stars are guides",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
@@ -24,7 +24,7 @@
                             "location": {
                                 "position": {
                                     "y": {
-                                        "min": 175
+                                        "min": 250
                                     }
                                 }
                             }
