@@ -7,4 +7,4 @@ schedule function easter_egg:loop/1_hour 3600s replace
 function easter_egg:setup/scores
 
 # Set the maximum number of coins
-scoreboard players set max_ground_coins buffer 5
+scoreboard players set max_ground_coins buffer 7
