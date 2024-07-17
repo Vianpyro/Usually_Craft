@@ -1,9 +1,1 @@
-execute as @s if entity @s[advancements={easter_egg:spawn/cake=true}] run scoreboard players add @s easter_egg_completed 1
 execute as @s if entity @s[advancements={easter_egg:spawn/climb_high=true}] run scoreboard players add @s easter_egg_completed 1
-execute as @s if entity @s[advancements={easter_egg:spawn/demonic_crypt/inside=true}] run scoreboard players add @s easter_egg_completed 1
-execute as @s if entity @s[advancements={easter_egg:spawn/siren_song=true}] run scoreboard players add @s easter_egg_completed 1
-execute as @s if entity @s[advancements={easter_egg:spawn/slimy_cave/altar=true}] run scoreboard players add @s easter_egg_completed 1
-execute as @s if entity @s[advancements={easter_egg:spawn/slimy_cave/treasure_room=true}] run scoreboard players add @s easter_egg_completed 1
-execute as @s if entity @s[advancements={easter_egg:spawn/spider_cave/giant_spider=true}] run scoreboard players add @s easter_egg_completed 1
-execute as @s if entity @s[advancements={easter_egg:spawn/stockholm_room/bathroom=true}] run scoreboard players add @s easter_egg_completed 1
-execute as @s if entity @s[advancements={easter_egg:spawn/treehouse=true}] run scoreboard players add @s easter_egg_completed 1
