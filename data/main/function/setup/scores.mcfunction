@@ -24,3 +24,6 @@ scoreboard objectives add role dummy
 
 # Score for the game reward details
 scoreboard objectives add game_reward dummy
+
+# Score to record the last claimed day reward
+scoreboard objectives add last_daily_reward_day dummy
