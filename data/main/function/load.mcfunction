@@ -5,7 +5,7 @@ function main:setup/scores
 function spawn:setup/teams
 
 # Setup the gamerules
-fcuntion main:setup/gamerules
+function main:setup/gamerules
 
 # Setup the NPCs sizes
 function main:npc/size
