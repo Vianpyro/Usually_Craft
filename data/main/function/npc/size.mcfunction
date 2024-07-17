@@ -11,5 +11,5 @@ data modify storage main:npc_size_villager height set value 2
 data modify storage main:npc_size_villager width set value 1
 
 # Zombie
-data modify storage main:npc_size_enderman height set value 2
-data modify storage main:npc_size_enderman width set value 1
+data modify storage main:npc_size_zombie height set value 2
+data modify storage main:npc_size_zombie width set value 1
