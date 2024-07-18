@@ -14,3 +14,6 @@ function main:npc/size
 schedule function main:loop/1_second 1s replace
 schedule function main:loop/1_minute 60s replace
 schedule function main:loop/1_hour 3600s replace
+
+# Setblock a barrel for data storage
+setblock 8 153 0 barrel[facing=down] replace
