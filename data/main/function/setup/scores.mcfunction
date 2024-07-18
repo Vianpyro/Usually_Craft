@@ -1,5 +1,5 @@
 # Score for teleporting to a location
-scoreboard objectives add go_to trigger
+scoreboard objectives add action trigger
 
 # Score for all kind of values
 scoreboard objectives add buffer dummy

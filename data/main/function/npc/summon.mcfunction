@@ -1,4 +1,4 @@
-# args: entity, source, sub_source, slot, go_to
+# args: entity, source, sub_source, slot, action
 
 # Remove the old entities
 $kill @e[tag=$(source)_$(sub_source)_npc]
@@ -11,5 +11,5 @@ $execute as @e[type=$(entity),tag=$(source)_$(sub_source)_npc] at @s run summon 
 # Size the interaction box
 $execute as @e[type=minecraft:interaction,tag=$(source)_$(sub_source)_npc] run function main:npc/interaction with storage main:npc_size_$(entity)
 
-# Add the go_to score to the interaction
-$scoreboard players set @e[type=minecraft:interaction,tag=$(source)_$(sub_source)_npc] go_to $(go_to)
+# Add the action score to the interaction
+$scoreboard players set @e[type=minecraft:interaction,tag=$(source)_$(sub_source)_npc] action $(action)
