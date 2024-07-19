@@ -8,6 +8,10 @@ scoreboard players set remaining_minutes buffer 60
 # Get the current gametime (in ticks)
 execute store result score gametime buffer run time query gametime
 
+# Save the day number
+scoreboard players operation current_day buffer = gametime buffer
+scoreboard players operation current_day buffer /= ticks_in_a_day buffer
+
 # Get the hour
 scoreboard players operation gametime buffer %= ticks_in_a_day buffer
 scoreboard players operation hours buffer = gametime buffer
