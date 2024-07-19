@@ -1,3 +1,6 @@
+# Create the scores
+function lottery:setup/scores
+
 # Reset the loto
 function lottery:collect_garbage
 
