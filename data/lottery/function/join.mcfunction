@@ -12,7 +12,7 @@ scoreboard players operation @s purse -= @s bid
 
 # Announce the new player and their bid
 function main:message/success {"source":"Lottery","message":'"text":"You have joined the lotery!"'}
-tellraw @a ["",{"text":"[Lottery] ","color":"gold"},{"selector":"@s","color":"blue"},{"text":" bids ","color":"blue"},{"score":{"name":"@s","objective":"bid"},"color":"gold"},{"text":"!","color":"blue"}]
+tellraw @a ["",{"text":"[Lottery] ","color":"gold"},{"selector":"@s","color":"blue"},{"text":" bids ","color":"blue"},{"score":{"name":"@s","objective":"bid"},"color":"gold"},{"text":" u-coins!","color":"blue"}]
 
 # Retrieve the player count
 execute store result score lottery_player_count buffer run data get storage game:lottery player_count
