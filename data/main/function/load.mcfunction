@@ -17,3 +17,5 @@ schedule function main:loop/1_hour 3600s replace
 
 # Setblock a barrel for data storage
 setblock 8 153 0 barrel[facing=down] replace
+
+execute as @a run function main:message/success {"source":"Server","message":'"text":"Successfully loaded the datapack!"'}

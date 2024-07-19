@@ -2,6 +2,7 @@
     "values": [
         "easter_egg:load",
         "issue:load",
+        "lottery:load",
         "main:load",
         "spawn:load"
     ]

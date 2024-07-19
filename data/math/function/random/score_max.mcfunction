@@ -2,7 +2,7 @@
 $execute if score @s $(score) matches ..1 run return fail
 
 # Store the score
-data modify storage math:random min set value 1
+data modify storage math:random min set value 0
 $execute store result storage math:random max int 1 run scoreboard players get @s $(score)
 
 # Return the random value
