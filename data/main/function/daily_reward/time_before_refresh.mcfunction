@@ -16,7 +16,7 @@ scoreboard players operation current_day buffer /= ticks_in_a_day buffer
 scoreboard players operation gametime buffer %= ticks_in_a_day buffer
 scoreboard players operation hours buffer = gametime buffer
 scoreboard players operation hours buffer /= ticks_in_an_hour buffer
-scoreboard players add hours buffer 1
+execute store result storage main:daily_reward_clock hours int 1 run scoreboard players add hours buffer 1
 execute store result storage main:daily_reward_clock remaining_hours int 1 run scoreboard players operation remaining_hours buffer -= hours buffer
 
 # Get the minute
@@ -25,6 +25,9 @@ scoreboard players operation minutes buffer = gametime buffer
 scoreboard players operation minutes buffer /= ticks_in_a_minute buffer
 scoreboard players add minutes buffer 1
 execute store result storage main:daily_reward_clock remaining_minutes int 1 run scoreboard players operation remaining_minutes buffer -= minutes buffer
+
+# Set the day time
+function main:daily_reward/set_day_time with storage main:daily_reward_clock
 
 # Collect garbage
 scoreboard players reset ticks_in_a_day buffer
