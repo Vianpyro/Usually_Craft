@@ -1,6 +1,7 @@
 # Call the loops
 schedule function spawn:loop/1_second 1s replace
 schedule function spawn:loop/10_seconds 10s replace
+schedule function spawn:loop/10_minutes 600s replace
 
 # Kill all the entities in the spawn
 execute as @e[type=!player] if predicate spawn:in_spawn run kill @s
