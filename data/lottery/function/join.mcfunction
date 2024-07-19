@@ -1,6 +1,6 @@
 # Verify the player's bid
 execute if score @s bid matches ..9 run return run function lottery:bid_too_low
-execute if score @s money matches ..9 run return run function lottery:insufficient_funds
+execute if score @s bid > @s money run return run function lottery:insufficient_funds
 
 # Verify that the player hasn't already joined
 function main:get_player_name
