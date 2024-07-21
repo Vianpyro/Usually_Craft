@@ -4,7 +4,7 @@
             "id": "minecraft:emerald"
         },
         "title": "All In",
-        "description": "Bid 10'000 coins in a single game.",
+        "description": "Bid 10'000 u-coins in a single game.",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true

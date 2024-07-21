@@ -4,7 +4,7 @@
             "id": "minecraft:goat_horn"
         },
         "title": "Money Talks",
-        "description": "Win a total of 100'000 coins.",
+        "description": "Win a total of 100'000 u-coins.",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true

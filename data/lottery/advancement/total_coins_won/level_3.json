@@ -4,7 +4,7 @@
             "id": "minecraft:heart_of_the_sea"
         },
         "title": "For the Love of Money",
-        "description": "Win a total of 10'000 coins.",
+        "description": "Win a total of 10'000 u-coins.",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true

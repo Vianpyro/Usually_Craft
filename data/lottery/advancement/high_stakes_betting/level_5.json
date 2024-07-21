@@ -4,7 +4,7 @@
             "id": "minecraft:sculk"
         },
         "title": "Double or Nothing",
-        "description": "Bid 100'000 coins in a single game.",
+        "description": "Bid 100'000 u-coins in a single game.",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,

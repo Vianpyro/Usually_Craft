@@ -4,7 +4,7 @@
             "id": "minecraft:paper"
         },
         "title": "Pocket Change",
-        "description": "Win a total of 100 coins.",
+        "description": "Win a total of 100 u-coins.",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
