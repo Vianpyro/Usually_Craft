@@ -29,5 +29,5 @@ execute if score .player_count lottery_scores matches 1 run function main:messag
 execute if score .player_count lottery_scores matches 1 run return run schedule function lottery:run 30s replace
 
 # Update the count down for the lottery when a player joins
-execute if score .player_count lottery_scores matches 2.. run function main:message/alert {"source":"Lottery","message":'"text":"Rolling the dice in 10 seconds!"'}
+execute if score .player_count lottery_scores matches 2.. as @a run function main:message/alert {"source":"Lottery","message":'"text":"Rolling the dice in 10 seconds!"'}
 execute if score .player_count lottery_scores matches 2.. run schedule function lottery:run 10s replace
