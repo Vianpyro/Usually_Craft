@@ -13,4 +13,3 @@ scoreboard objectives add lottery_play_count dummy
 scoreboard objectives add lottery_total_gains dummy
 scoreboard objectives add lottery_win_count dummy
 scoreboard objectives add lottery_win_streak dummy
-scoreboard objectives add lottery_won_last_time dummy
