@@ -1,3 +1,2 @@
-$execute as $(name) run say I won!
-$execute store result score $(name) purse run data get storage game:lottery total_bid
-function lottery:collect_garbage
+tellraw @a ["",{"text":"[Lottery] ","color":"gold"},{"text":"The winner of the lottery is ","color":"blue"},{"selector":"@s"},{"text":"!","color":"blue"}]
+scoreboard players operation @s purse += .total_bids lottery_scores
