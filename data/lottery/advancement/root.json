@@ -7,7 +7,7 @@
         "description": "Remember, the house always wins. Play responsibly!",
         "show_toast": true,
         "announce_to_chat": false,
-        "hidden": true
+        "hidden": false
     },
     "parent": "main:root",
     "criteria": {
