@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:hay_block"
+        },
+        "title": "Bet the Farm",
+        "description": "Bid 50'000 coins in a single game.",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "parent": "lottery:high_stakes_betting/level_3",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

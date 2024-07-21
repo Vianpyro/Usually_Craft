@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:rabbit_foot"
+            "id": "minecraft:cod"
         },
-        "title": "Beginner's Luck",
-        "description": "Win your first lottery bid!",
+        "title": "Small Fry",
+        "description": "Make 1 bid.",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
@@ -19,7 +19,7 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "lottery_win_count": {
+                            "lottery_play_count": {
                                 "min": 1
                             }
                         }

@@ -1,15 +1,15 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:rabbit_foot"
+            "id": "minecraft:heart_of_the_sea"
         },
-        "title": "Beginner's Luck",
-        "description": "Win your first lottery bid!",
+        "title": "For the Love of Money",
+        "description": "Win a total of 10'000 coins.",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "lottery:root",
+    "parent": "lottery:total_coins_won/level_2",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",
@@ -19,8 +19,8 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "lottery_win_count": {
-                                "min": 1
+                            "lottery_total_gains": {
+                                "min": 10000
                             }
                         }
                     }

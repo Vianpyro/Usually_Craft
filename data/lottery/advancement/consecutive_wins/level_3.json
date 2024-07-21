@@ -1,15 +1,15 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:rabbit_foot"
+            "id": "minecraft:redstone"
         },
-        "title": "Beginner's Luck",
-        "description": "Win your first lottery bid!",
+        "title": "Can't Stop, Won't Stop",
+        "description": "Win 10 consecutive bids.",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "lottery:root",
+    "parent": "lottery:consecutive_wins/level_2",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",
@@ -19,8 +19,8 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "lottery_win_count": {
-                                "min": 1
+                            "lottery_win_streak": {
+                                "min": 10
                             }
                         }
                     }

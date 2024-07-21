@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:rabbit_foot"
+            "id": "minecraft:paper"
         },
-        "title": "Beginner's Luck",
-        "description": "Win your first lottery bid!",
+        "title": "Pocket Change",
+        "description": "Win a total of 100 coins.",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
@@ -19,8 +19,8 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "lottery_win_count": {
-                                "min": 1
+                            "lottery_total_gains": {
+                                "min": 100
                             }
                         }
                     }

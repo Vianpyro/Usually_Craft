@@ -1,15 +1,16 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:rabbit_foot"
+            "id": "minecraft:diamond_block"
         },
-        "title": "Beginner's Luck",
-        "description": "Win your first lottery bid!",
+        "title": "Cash Money",
+        "description": "Win a total of 1'000'000 coins.",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "lottery:root",
+    "parent": "lottery:total_coins_won/level_4",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",
@@ -19,8 +20,8 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "lottery_win_count": {
-                                "min": 1
+                            "lottery_total_gains": {
+                                "min": 1000000
                             }
                         }
                     }

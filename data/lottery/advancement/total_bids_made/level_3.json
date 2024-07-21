@@ -1,15 +1,15 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:rabbit_foot"
+            "id": "minecraft:prismarine_shard"
         },
-        "title": "Beginner's Luck",
-        "description": "Win your first lottery bid!",
+        "title": "Big Spender",
+        "description": "Make 100 bids.",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "lottery:root",
+    "parent": "lottery:total_bids_made/level_2",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",
@@ -19,8 +19,8 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "lottery_win_count": {
-                                "min": 1
+                            "lottery_play_count": {
+                                "min": 100
                             }
                         }
                     }
