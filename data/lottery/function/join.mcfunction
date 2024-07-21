@@ -25,7 +25,7 @@ scoreboard players add .highscore lottery_scores 0
 execute if score @s lottery_scores > .highscore lottery_scores run scoreboard players operation .highscore lottery_scores = @s lottery_scores
 
 # Start the count down for the lottery
-execute if score .player_count lottery_scores matches 1 run function main:message/alert {"source":"Lottery","message":'"text":"Rolling the dice in 30 seconds!"'}
+execute if score .player_count lottery_scores matches 1 as @a run function main:message/alert {"source":"Lottery","message":'"text":"Rolling the dice in 30 seconds!"'}
 execute if score .player_count lottery_scores matches 1 run return run schedule function lottery:run 30s replace
 
 # Update the count down for the lottery when a player joins
