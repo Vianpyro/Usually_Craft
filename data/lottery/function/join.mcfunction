@@ -1,38 +1,33 @@
 # Verify the player's bid
-execute if score @s bid matches ..9 run return run function lottery:bid_too_low
-execute if score @s bid > @s money run return run function lottery:insufficient_funds
+execute if score @s bid matches ..9 run return run function lottery:error/bid_too_low
+execute if score @s bid > @s money run return run function lottery:error/insufficient_funds
 
-# Verify that the player hasn't already joined
-function main:get_player_name
-execute store success score join_loto buffer run function lottery:append with storage main:buffer
-execute if score join_loto buffer matches 0 run return run function lottery:already_joined
+# Verifiy that the player has not already bid
+execute if score @s lottery_bids matches 0.. run return run function lottery:error/already_joined
 
-# Pay the bid
-scoreboard players operation @s purse -= @s bid
+# Store the bid
+scoreboard players operation @s lottery_bids = @s bid
+scoreboard players operation .total_bids lottery_scores += @s bid
+
+# Reset the triggers
+function lottery:reset_triggers
+
+# Add the player to the player count
+scoreboard players add .player_count lottery_scores 1
 
 # Announce the new player and their bid
 function main:message/success {"source":"Lottery","message":'"text":"You have joined the lotery!"'}
-tellraw @a ["",{"text":"[Lottery] ","color":"gold"},{"selector":"@s","color":"blue"},{"text":" bids ","color":"blue"},{"score":{"name":"@s","objective":"bid"},"color":"gold"},{"text":" u-coins!","color":"blue"}]
+tellraw @a ["",{"text":"[Lottery] ","color":"gold"},{"selector":"@s","color":"blue"},{"text":" bids ","color":"blue"},{"score":{"name":"@s","objective":"lottery_bids"},"color":"gold"},{"text":" u-coins!","color":"blue"}]
 
-# Retrieve the player count
-execute store result score lottery_player_count buffer run data get storage game:lottery player_count
+# Roll the dice
+execute store result score @s lottery_scores run function math:random/score_max {"score":"lottery_bids"}
+scoreboard players add .highscore lottery_scores 0
+execute if score @s lottery_scores > .highscore lottery_scores run scoreboard players operation .highscore lottery_scores = @s lottery_scores
 
-# Calculate the score
-execute store result score lottery_score buffer run function math:random/score_max {"score":"bid"}
+# Start the count down for the lottery
+execute if score .player_count lottery_scores matches 1 run function main:message/alert {"source":"Lottery","message":'"text":"Rolling the dice in 30 seconds!"'}
+execute if score .player_count lottery_scores matches 1 run return run schedule function lottery:run 30s replace
 
-# Store the highest score and the player's id
-execute store result score lottery_highscore buffer run data get storage game:lottery highscore 1
-execute if score lottery_score buffer >= lottery_highscore buffer run function lottery:highscore
-
-# Add 1 to the player count
-execute store result storage game:lottery player_count int 1 run scoreboard players add lottery_player_count buffer 1
-
-# Add the bid to the total
-execute store result score loto_total_bid buffer run data get storage game:lottery total_bid
-execute store result storage game:lottery total_bid int 1 run scoreboard players operation loto_total_bid buffer += @s bid
-
-# (Re)-set the timer
-schedule function lottery:run 30s replace
-execute as @a run function main:message/alert {"source":"Lottery","message":'"text":"Rolling the dice in 30 seconds!"'}
-
-function lottery:reset_triggers
+# Update the count down for the lottery when a player joins
+execute if score .player_count lottery_scores matches 2.. run function main:message/alert {"source":"Lottery","message":'"text":"Rolling the dice in 10 seconds!"'}
+execute if score .player_count lottery_scores matches 2.. run schedule function lottery:run 10s replace
