@@ -1,15 +1,15 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:chain_command_block"
+            "id": "minecraft:fishing_rod"
         },
-        "title": "Aroma Analyst",
-        "description": "Multiple issues have been identified by your acute sense of smell. You're a natural!",
+        "title": "Beginner's Luck",
+        "description": "Win your first lottery bid!",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "issue:performance/level_1",
+    "parent": "lottery:root",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",
@@ -19,8 +19,8 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "find_issue_perf": {
-                                "min": 15
+                            "lottery_win_count": {
+                                "min": 1
                             }
                         }
                     }

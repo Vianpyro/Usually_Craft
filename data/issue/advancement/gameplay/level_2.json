@@ -12,7 +12,7 @@
     "parent": "issue:gameplay/level_1",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:tick",
+            "trigger": "minecraft:location",
             "conditions": {
                 "player": [
                     {

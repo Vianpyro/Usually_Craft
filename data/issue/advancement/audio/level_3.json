@@ -13,7 +13,7 @@
     "parent": "issue:audio/level_2",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:tick",
+            "trigger": "minecraft:location",
             "conditions": {
                 "player": [
                     {

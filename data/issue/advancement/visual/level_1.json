@@ -11,7 +11,7 @@
     "parent": "issue:root",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:tick",
+            "trigger": "minecraft:location",
             "conditions": {
                 "player": [
                     {
