@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:gold_block"
+        },
+        "title": "Pot of Gold",
+        "description": "Pick up 10'000 u-coins.",
+        "announce_to_chat": false
+    },
+    "parent": "easter_egg:spawn/coins/level_4",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "picked_up_coins": {
+                                "min": 10000
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
