@@ -6,9 +6,7 @@
         "title": "Hawk-Eyed Hero",
         "description": "Your ability to detect issues is extraordinary. Thank you for your vigilant watch!",
         "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
+        "announce_to_chat": false
     },
     "parent": "issue:visual/level_2",
     "criteria": {

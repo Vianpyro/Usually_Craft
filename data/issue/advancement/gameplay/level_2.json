@@ -5,9 +5,7 @@
         },
         "title": "Savory Solver",
         "description": "Your taste for solutions satisfies the cravings of every adventurer.",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
+        "announce_to_chat": false
     },
     "parent": "issue:gameplay/level_1",
     "criteria": {

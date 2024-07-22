@@ -5,9 +5,7 @@
         },
         "title": "Luck of the Draw",
         "description": "Win 100 bids.",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
+        "announce_to_chat": false
     },
     "parent": "lottery:total_wins/level_3",
     "criteria": {

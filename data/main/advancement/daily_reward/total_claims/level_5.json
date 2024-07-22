@@ -6,9 +6,7 @@
         "title": "Stayin' Alive",
         "description": "Log in 500 days.",
         "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
+        "announce_to_chat": false
     },
     "parent": "main:daily_reward/total_claims/level_4",
     "criteria": {

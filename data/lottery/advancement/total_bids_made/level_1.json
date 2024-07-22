@@ -5,9 +5,7 @@
         },
         "title": "Small Fry",
         "description": "Make 1 bid.",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
+        "announce_to_chat": false
     },
     "parent": "lottery:root",
     "criteria": {

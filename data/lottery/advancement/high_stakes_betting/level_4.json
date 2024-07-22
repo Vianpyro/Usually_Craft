@@ -5,9 +5,7 @@
         },
         "title": "Bet the Farm",
         "description": "Bid 50'000 u-coins in a single game.",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
+        "announce_to_chat": false
     },
     "parent": "lottery:high_stakes_betting/level_3",
     "criteria": {

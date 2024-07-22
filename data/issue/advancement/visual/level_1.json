@@ -5,7 +5,6 @@
         },
         "title": "Eagle Eye",
         "description": "You've spotted your first issue! Thanks for keeping a keen eye on the details.",
-        "show_toast": true,
         "announce_to_chat": false
     },
     "parent": "issue:root",

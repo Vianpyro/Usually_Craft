@@ -5,9 +5,7 @@
         },
         "title": "Big Spender",
         "description": "Make 100 bids.",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
+        "announce_to_chat": false
     },
     "parent": "lottery:total_bids_made/level_2",
     "criteria": {

@@ -5,9 +5,7 @@
         },
         "title": "Welcome Back!",
         "description": "Log in 5 days.",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
+        "announce_to_chat": false
     },
     "parent": "main:daily_reward/root",
     "criteria": {

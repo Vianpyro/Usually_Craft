@@ -5,9 +5,7 @@
         },
         "title": "Can't Stop, Won't Stop",
         "description": "Win 10 consecutive bids.",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
+        "announce_to_chat": false
     },
     "parent": "lottery:consecutive_wins/level_2",
     "criteria": {

@@ -5,7 +5,6 @@
         },
         "title": "Scent Detective",
         "description": "You've sniffed out your first bug! Your nose knows.",
-        "show_toast": true,
         "announce_to_chat": false
     },
     "parent": "issue:root",

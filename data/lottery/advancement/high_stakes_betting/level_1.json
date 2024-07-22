@@ -5,9 +5,7 @@
         },
         "title": "Ante Up",
         "description": "Bid 100 u-coins in a single game.",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
+        "announce_to_chat": false
     },
     "parent": "lottery:root",
     "criteria": {

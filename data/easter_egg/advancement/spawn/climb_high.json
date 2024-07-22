@@ -6,7 +6,6 @@
         "title": "The sky is the limit",
         "description": "For some, who are travelers, the stars are guides",
         "frame": "challenge",
-        "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },

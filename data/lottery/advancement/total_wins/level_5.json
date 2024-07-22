@@ -6,9 +6,7 @@
         "title": "Infinite Improbability Drive",
         "description": "Win 500 bids.",
         "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
+        "announce_to_chat": false
     },
     "parent": "lottery:total_wins/level_4",
     "criteria": {

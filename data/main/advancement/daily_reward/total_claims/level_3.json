@@ -5,9 +5,7 @@
         },
         "title": "Resident",
         "description": "Log in 50 days.",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
+        "announce_to_chat": false
     },
     "parent": "main:daily_reward/total_claims/level_2",
     "criteria": {

@@ -5,9 +5,7 @@
         },
         "title": "Aroma Analyst",
         "description": "Multiple issues have been identified by your acute sense of smell. You're a natural!",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
+        "announce_to_chat": false
     },
     "parent": "issue:performance/level_1",
     "criteria": {

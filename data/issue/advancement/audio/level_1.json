@@ -5,7 +5,6 @@
         },
         "title": "Keen Listener",
         "description": "You've caught an error by listening to the clues. Every sound matters!",
-        "show_toast": true,
         "announce_to_chat": false
     },
     "parent": "issue:root",

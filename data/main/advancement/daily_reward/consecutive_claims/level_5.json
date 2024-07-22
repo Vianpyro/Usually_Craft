@@ -6,9 +6,7 @@
         "title": "Forever Loyal",
         "description": "Log in every day for a year!",
         "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
+        "announce_to_chat": false
     },
     "parent": "main:daily_reward/consecutive_claims/level_4",
     "criteria": {
