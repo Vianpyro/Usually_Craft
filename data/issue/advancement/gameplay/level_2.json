@@ -7,7 +7,7 @@
         "description": "Your taste for solutions satisfies the cravings of every adventurer.",
         "show_toast": true,
         "announce_to_chat": false,
-        "hidden": true
+        "hidden": false
     },
     "parent": "issue:gameplay/level_1",
     "criteria": {

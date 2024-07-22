@@ -7,7 +7,7 @@
         "description": "Make 1'000 bids.",
         "show_toast": true,
         "announce_to_chat": false,
-        "hidden": true
+        "hidden": false
     },
     "parent": "lottery:total_bids_made/level_3",
     "criteria": {

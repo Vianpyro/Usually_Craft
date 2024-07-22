@@ -7,7 +7,7 @@
         "description": "Bid 100 u-coins in a single game.",
         "show_toast": true,
         "announce_to_chat": false,
-        "hidden": true
+        "hidden": false
     },
     "parent": "lottery:root",
     "criteria": {

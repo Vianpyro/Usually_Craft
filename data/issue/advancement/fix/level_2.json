@@ -7,7 +7,7 @@
         "description": "Your steady hands have fixed several problems. Keep up the good work!",
         "show_toast": true,
         "announce_to_chat": false,
-        "hidden": true
+        "hidden": false
     },
     "parent": "issue:fix/level_1",
     "criteria": {

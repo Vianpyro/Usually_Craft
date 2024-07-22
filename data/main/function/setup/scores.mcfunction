@@ -27,3 +27,9 @@ scoreboard objectives add game_reward dummy
 
 # Score to record the last claimed day reward
 scoreboard objectives add last_daily_reward_day dummy
+
+# Score to count the daily reward
+scoreboard objectives add daily_reward_count dummy
+
+# Score to count the daily reward streak
+scoreboard objectives add daily_reward_streak dummy

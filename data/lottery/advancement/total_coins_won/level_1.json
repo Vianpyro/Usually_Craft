@@ -7,7 +7,7 @@
         "description": "Win a total of 100 u-coins.",
         "show_toast": true,
         "announce_to_chat": false,
-        "hidden": true
+        "hidden": false
     },
     "parent": "lottery:root",
     "criteria": {

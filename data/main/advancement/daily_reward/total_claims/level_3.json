@@ -1,16 +1,15 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:dragon_egg"
+            "id": "minecraft:red_bed"
         },
-        "title": "Whale",
-        "description": "Make 10'000 bids.",
-        "frame": "challenge",
+        "title": "Resident",
+        "description": "Log in 50 days.",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "lottery:total_bids_made/level_4",
+    "parent": "main:daily_reward/total_claims/level_2",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",
@@ -20,8 +19,8 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "lottery_play_count": {
-                                "min": 10000
+                            "daily_reward_count": {
+                                "min": 50
                             }
                         }
                     }

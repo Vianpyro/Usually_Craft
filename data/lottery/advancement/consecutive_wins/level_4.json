@@ -7,7 +7,7 @@
         "description": "Win 15 consecutive bids.",
         "show_toast": true,
         "announce_to_chat": false,
-        "hidden": true
+        "hidden": false
     },
     "parent": "lottery:consecutive_wins/level_3",
     "criteria": {

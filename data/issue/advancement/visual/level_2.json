@@ -7,7 +7,7 @@
         "description": "You've identified several problems. Your vision is proving invaluable!",
         "show_toast": true,
         "announce_to_chat": false,
-        "hidden": true
+        "hidden": false
     },
     "parent": "issue:visual/level_1",
     "criteria": {

@@ -8,7 +8,7 @@
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
-        "hidden": true
+        "hidden": false
     },
     "parent": "issue:performance/level_2",
     "criteria": {

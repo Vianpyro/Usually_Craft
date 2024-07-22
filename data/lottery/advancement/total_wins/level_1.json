@@ -7,7 +7,7 @@
         "description": "Win your first lottery bid!",
         "show_toast": true,
         "announce_to_chat": false,
-        "hidden": true
+        "hidden": false
     },
     "parent": "lottery:root",
     "criteria": {

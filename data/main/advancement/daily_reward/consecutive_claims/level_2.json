@@ -1,16 +1,15 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:dragon_egg"
+            "id": "minecraft:iron_ingot"
         },
-        "title": "Whale",
-        "description": "Make 10'000 bids.",
-        "frame": "challenge",
+        "title": "Habit Forming",
+        "description": "Log in for 7 consecutive days.",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "lottery:total_bids_made/level_4",
+    "parent": "main:daily_reward/consecutive_claims/level_1",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:location",
@@ -20,8 +19,8 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "lottery_play_count": {
-                                "min": 10000
+                            "daily_reward_streak": {
+                                "min": 7
                             }
                         }
                     }

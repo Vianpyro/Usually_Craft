@@ -7,7 +7,7 @@
         "description": "Your acute hearing has pinpointed multiple issues. Thanks for tuning in!",
         "show_toast": true,
         "announce_to_chat": false,
-        "hidden": true
+        "hidden": false
     },
     "parent": "issue:audio/level_1",
     "criteria": {
