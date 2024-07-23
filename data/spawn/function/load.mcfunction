@@ -14,3 +14,6 @@ execute as @e[type=item] if predicate spawn:in_spawn run kill @s
 
 # Add the decoration entities
 function spawn:houses
+
+# Add the bossbar
+function spawn:news_bossbar

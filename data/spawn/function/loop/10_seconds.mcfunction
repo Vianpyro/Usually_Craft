@@ -3,3 +3,6 @@ execute as @a[gamemode=!spectator] if predicate spawn:in_spawn unless data entit
 
 # At the end reset the schedule
 schedule function spawn:loop/10_seconds 10s replace
+
+# Update the bossbar visibility
+bossbar set spawn:news players @a[predicate=spawn:in_spawn]
