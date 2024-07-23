@@ -1,6 +1,9 @@
 # Make sure the player is not spectating anyone
 spectate
 
+# Add the spawn protection
+function spawn:protection {"item":"minecraft:oak_button"}
+
 # Teleport the player to the spawn point
 tp @s 8 155 0 0 0
 

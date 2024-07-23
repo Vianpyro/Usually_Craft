@@ -2,7 +2,7 @@
 function main:setup/scores
 
 # Create the scores
-function spawn:setup/teams
+function main:setup/teams
 
 # Setup the gamerules
 function main:setup/gamerules

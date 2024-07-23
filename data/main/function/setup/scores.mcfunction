@@ -33,3 +33,11 @@ scoreboard objectives add daily_reward_count dummy
 
 # Score to count the daily reward streak
 scoreboard objectives add daily_reward_streak dummy
+
+# Setup the verification informations scoreboard
+scoreboard objectives add verification_informations dummy
+scoreboard objectives modify verification_informations displayname {"text":"Please verify your account:","color":"red","bold":true}
+scoreboard objectives modify verification_informations numberformat blank
+scoreboard objectives setdisplay sidebar.team.gray verification_informations
+scoreboard players set Discord: verification_informations 1
+scoreboard players set https://discord.gg/S75Pd3hgMb verification_informations 0

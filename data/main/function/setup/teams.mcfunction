@@ -7,6 +7,9 @@ team add moderator
 team add verified
 team add vip
 
+# Set the default team color to gray
+team modify default color gray
+
 # Set the teams display
 team modify admin prefix {"text":"Admin ","color":"red"}
 team modify default prefix ["",{"text":"[","color":"dark_gray"},{"text":"?","color":"gray","bold":true},{"text":"] ","color":"dark_gray"}]
