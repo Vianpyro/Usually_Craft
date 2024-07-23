@@ -10,4 +10,8 @@ title @s title {"text":"Usually Craft","color":"gold"}
 # Assign rank
 function main:login/assign_rank
 
+# Play login sound
+execute as @a at @s run playsound minecraft:entity.enderman.teleport master @s ~ ~ ~ 0.5 0.8
+
+# Greet players
 say Hello!
