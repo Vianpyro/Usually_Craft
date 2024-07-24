@@ -4,13 +4,9 @@ scoreboard objectives add go_to trigger
 # Score for all kind of values
 scoreboard objectives add buffer dummy
 
-# Actual money count
+# Money related scoreboards
 scoreboard objectives add money dummy
-
-# Money to be added
 scoreboard objectives add purse dummy
-
-# Score for the total money count statistic
 scoreboard objectives add total_money dummy
 
 # Score used to detect when a player joins the server
@@ -25,14 +21,11 @@ scoreboard objectives add role dummy
 # Score for the game reward details
 scoreboard objectives add game_reward dummy
 
-# Score to record the last claimed day reward
-scoreboard objectives add last_daily_reward_day dummy
-
-# Score to count the daily reward
+# Daily reward related scoreboards
 scoreboard objectives add daily_reward_count dummy
-
-# Score to count the daily reward streak
+scoreboard objectives add daily_reward_last_day dummy
 scoreboard objectives add daily_reward_streak dummy
+scoreboard objectives add daily_reward_streak_max dummy
 
 # Setup the verification informations scoreboard
 scoreboard objectives add verification_informations dummy
