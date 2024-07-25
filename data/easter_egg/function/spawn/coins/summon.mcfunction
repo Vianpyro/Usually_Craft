@@ -2,7 +2,7 @@
 execute unless score max_ground_coins buffer matches 1.. run return fail
 
 # Count the number of entities
-execute store result score ground_coins_count buffer run execute if entity @e[type=interaction,tag=ground_coin_interaction]
+execute store result score ground_coins_count buffer if entity @e[type=interaction,tag=ground_coin_interaction]
 
 # Stop the function if the number of coins is greater than the maximum
 execute if score ground_coins_count buffer >= max_ground_coins buffer run return fail
