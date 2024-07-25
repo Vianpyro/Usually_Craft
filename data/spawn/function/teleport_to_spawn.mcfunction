@@ -3,6 +3,7 @@ spectate
 
 # Add the spawn protection
 function spawn:protection {"item":"minecraft:oak_button"}
+effect give @s minecraft:regeneration 1 255 true
 
 # Teleport the player to the spawn point
 tp @s 8 155 0 0 0
