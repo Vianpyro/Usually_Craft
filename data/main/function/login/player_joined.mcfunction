@@ -2,6 +2,9 @@ function spawn:teleport_to_spawn
 scoreboard players set @s join 0
 advancement revoke @s only main:login
 
+# Leave team so the title only shows to the player name
+team leave @s
+
 # Welcome banner
 title @s times 0 50 10
 title @s subtitle ["",{"text":"Welcome ","color":"dark_green"},{"selector":"@s","color":"dark_aqua"},{"text":"!","color":"dark_green"}]
