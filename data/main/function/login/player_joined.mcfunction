@@ -18,3 +18,6 @@ execute as @a at @s run playsound minecraft:entity.enderman.teleport master @s ~
 
 # Greet players
 say Hello!
+
+# Grant advancements
+function issue:grant_advancement

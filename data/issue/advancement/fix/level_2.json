@@ -10,20 +10,7 @@
     "parent": "issue:fix/level_1",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_scores",
-                        "entity": "this",
-                        "scores": {
-                            "find_issue_and_fix": {
-                                "min": 15
-                            }
-                        }
-                    }
-                ]
-            }
+            "trigger": "minecraft:impossible"
         }
     }
 }
