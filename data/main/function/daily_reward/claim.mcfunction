@@ -17,5 +17,8 @@ scoreboard players add @s daily_reward_streak 1
 scoreboard players operation @s daily_reward_last_day = current_day buffer
 execute if score @s daily_reward_streak > @s daily_reward_streak_max run scoreboard players operation @s daily_reward_streak_max = @s daily_reward_streak
 
+# Grant the advancement for claiming the daily reward
+function main:daily_reward/grant_advancement
+
 # Tell the player that they have claimed the daily reward
 function main:message/generic/claim_daily_reward
