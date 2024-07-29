@@ -17,5 +17,8 @@ execute if score @s go_to matches 4 run function main:money/balance
 # Claim daily reward
 execute if score @s go_to matches 5 run function main:daily_reward/claim
 
+# Pick up a coin pouch
+execute if score @s go_to matches 6 at @s positioned ^ ^ ^1.5 run function easter_egg:spawn/coins_pouch/pick_up
+
 # Reset go_to score
 scoreboard players set @s go_to 0
