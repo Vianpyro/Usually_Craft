@@ -1,6 +1,5 @@
 # Prevents the player from claiming the daily reward twice in the same day
-execute if score @s daily_reward_last_day = current_day buffer run function main:message/generic/already_claimed_daily_reward
-execute if score @s daily_reward_last_day = current_day buffer run return fail
+execute unless function main:daily_reward/is_available run return run function main:message/generic/already_claimed_daily_reward
 
 # Reset the daily reward streak if the player missed a day
 scoreboard players operation .daily_reward_last_day buffer = @s daily_reward_last_day

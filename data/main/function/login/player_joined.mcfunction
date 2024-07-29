@@ -21,3 +21,6 @@ say Hello!
 
 # Grant advancements
 function issue:grant_advancement
+
+# Remind players of their daily reward
+execute if function main:daily_reward/is_available run function main:message/notice {"source":"Server", "message":'"text":"Your daily reward is available!"'}
