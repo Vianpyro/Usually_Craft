@@ -5,6 +5,7 @@
         },
         "title": "Living on the Edge",
         "description": "Survive with half a heart in a supposedly safe area",
+        "frame": "challenge",
         "announce_to_chat": false,
         "hidden": true
     },
