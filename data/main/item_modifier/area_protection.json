@@ -1,5 +1,10 @@
 [
     {
+        "function": "minecraft:set_name",
+        "target": "item_name",
+        "name": "Hello there!"
+    },
+    {
         "function": "minecraft:set_components",
         "components": {
             "minecraft:attribute_modifiers": {
