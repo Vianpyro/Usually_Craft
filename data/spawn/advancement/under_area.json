@@ -6,7 +6,11 @@
                 "player": [
                     {
                         "condition": "minecraft:reference",
-                        "name": "spawn:under_area"
+                        "name": "main:below_map"
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "spawn:in_area"
                     }
                 ]
             }
