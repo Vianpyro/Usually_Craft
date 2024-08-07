@@ -6,7 +6,7 @@ execute if score @s go_to matches 1 run function spawn:teleport_to_spawn
 
 # Join the survival server
 execute if score @s go_to matches 2 if score @s role matches ..1 run function main:message/error {"source":"Server","message":'"text":"You need to verify your account first!"'}
-execute if score @s go_to matches 2 if score @s role matches 2.. run function main:join_survival
+execute if score @s go_to matches 2 if score @s role matches 2.. run function survival:join_game
 
 # Pick up a coin
 execute if score @s go_to matches 3 at @s positioned ^ ^ ^1.5 run function easter_egg:spawn/coins/pick_up

@@ -1,0 +1,19 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "position": {
+                    "y": {
+                        "max": -64
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "spawn:in_area"
+        }
+    ]
+}

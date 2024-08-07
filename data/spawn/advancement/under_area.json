@@ -6,7 +6,7 @@
                 "player": [
                     {
                         "condition": "minecraft:reference",
-                        "name": "spawn:under_spawn"
+                        "name": "spawn:under_area"
                     }
                 ]
             }

@@ -31,7 +31,7 @@
                     },
                     {
                         "condition": "minecraft:reference",
-                        "name": "spawn:in_spawn"
+                        "name": "spawn:in_area"
                     }
                 ]
             }
