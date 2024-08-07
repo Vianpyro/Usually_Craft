@@ -20,5 +20,8 @@ execute if score @s go_to matches 5 run function main:daily_reward/claim
 # Pick up a coin pouch
 execute if score @s go_to matches 6 at @s positioned ^ ^ ^1.5 run function easter_egg:spawn/coins_pouch/pick_up
 
+# Join the melon bomber game
+execute if score @s go_to matches 7 run function melon_bomber:join_game
+
 # Reset go_to score
 scoreboard players set @s go_to 0
