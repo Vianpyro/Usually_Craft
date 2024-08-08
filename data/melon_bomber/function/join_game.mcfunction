@@ -4,4 +4,4 @@ execute if score @s role matches ..9 run return run function main:message/generi
 #  Verify a game is not already in progress
 
 # Teleport player to the game
-tp @s 1024 2 1024 0 0
+function melon_bomber:teleport_to_area

@@ -4,6 +4,7 @@
         "issue:load",
         "lottery:load",
         "main:load",
+        "melon_bomber:load",
         "spawn:load"
     ]
 }

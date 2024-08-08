@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "main:below_map"
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "melon_bomber:in_area"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "melon_bomber:teleport_to_area"
+    }
+}
