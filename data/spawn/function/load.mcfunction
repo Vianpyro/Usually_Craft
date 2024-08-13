@@ -10,6 +10,7 @@ execute as @e[type=!player] at @s if predicate spawn:in_area run kill @s
 function spawn:npc/slots
 function spawn:npc/summon {"game":"Daily-Reward","entity":"villager","slot":1,"go_to":5}
 function spawn:npc/summon {"game":"Survival","entity":"zombie","slot":2,"go_to":2}
+function spawn:npc/summon {"game":"Melon-Bomber","entity":"creeper","slot":3,"go_to":7}
 execute as @e[type=item] at @s if predicate spawn:in_area run kill @s
 
 # Add the decoration entities
