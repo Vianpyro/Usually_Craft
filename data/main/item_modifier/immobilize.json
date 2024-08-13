@@ -10,6 +10,34 @@
             "minecraft:attribute_modifiers": {
                 "modifiers": [
                     {
+                        "id": "generic.max_health",
+                        "type": "minecraft:generic.max_health",
+                        "amount": -18,
+                        "operation": "add_value",
+                        "slot": "head"
+                    },
+                    {
+                        "id": "generic.attack_damage",
+                        "type": "minecraft:generic.attack_damage",
+                        "amount": -1,
+                        "operation": "add_multiplied_total",
+                        "slot": "head"
+                    },
+                    {
+                        "id": "player.block_break_speed",
+                        "type": "minecraft:player.block_break_speed",
+                        "amount": -1,
+                        "operation": "add_multiplied_total",
+                        "slot": "head"
+                    },
+                    {
+                        "id": "generic.fall_damage_multiplier",
+                        "type": "minecraft:generic.fall_damage_multiplier",
+                        "amount": -1,
+                        "operation": "add_multiplied_total",
+                        "slot": "head"
+                    },
+                    {
                         "id": "generic.jump_strength",
                         "type": "minecraft:generic.jump_strength",
                         "amount": -1,
