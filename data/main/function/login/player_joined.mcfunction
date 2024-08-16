@@ -23,4 +23,4 @@ say Hello!
 function issue:grant_advancement
 
 # Remind players of their daily reward
-execute if function main:daily_reward/is_available run function main:message/notice {"source":"Server", "message":'"text":"Your daily reward is available!"'}
+execute unless score @s daily_reward_last_day = current_day buffer run function main:message/notice {"source":"Server", "message":'"text":"Your daily reward is available!"'}
