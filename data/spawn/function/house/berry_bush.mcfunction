@@ -14,3 +14,6 @@ summon minecraft:block_display -57.0 156 66.0 {block_state:{Name:"minecraft:swee
 summon minecraft:block_display -56.0 156 67.0 {block_state:{Name:"minecraft:sweet_berry_bush",Properties:{age:"3"}}}
 summon minecraft:block_display -56.0 156 68.0 {block_state:{Name:"minecraft:sweet_berry_bush",Properties:{age:"3"}}}
 summon minecraft:block_display -58.0 156 77.0 {block_state:{Name:"minecraft:sweet_berry_bush",Properties:{age:"3"}}}
+summon minecraft:block_display -42.0 159 67.0 {block_state:{Name:"minecraft:sweet_berry_bush",Properties:{age:"3"}}}
+summon minecraft:block_display -41.0 159 66.0 {block_state:{Name:"minecraft:sweet_berry_bush",Properties:{age:"3"}}}
+summon minecraft:block_display -44.0 160 65.0 {block_state:{Name:"minecraft:sweet_berry_bush",Properties:{age:"3"}}}
