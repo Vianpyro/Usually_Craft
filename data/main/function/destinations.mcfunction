@@ -23,5 +23,8 @@ execute if score @s go_to matches 6 at @s positioned ^ ^ ^1.5 run function easte
 # Join the melon bomber game
 execute if score @s go_to matches 7 run function melon_bomber:join_game
 
+# Report an issue
+execute if score @s go_to matches 8 run function main:message/generic/report_bug
+
 # Reset go_to score
 scoreboard players set @s go_to 0
