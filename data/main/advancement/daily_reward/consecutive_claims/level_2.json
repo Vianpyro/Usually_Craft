@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:iron_ingot"
+            "id": "minecraft:clock"
         },
         "title": "Habit Forming",
         "description": "Log in for 7 consecutive days.",

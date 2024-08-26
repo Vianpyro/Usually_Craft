@@ -1,11 +1,10 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:cake"
+            "id": "minecraft:gold_ingot"
         },
-        "title": "Forever Loyal",
-        "description": "Log in every day for a year!",
-        "frame": "challenge",
+        "title": "Quarterly Commitment",
+        "description": "Log in every day for 3 consecutive months.",
         "announce_to_chat": false
     },
     "parent": "main:daily_reward/consecutive_claims/level_4",

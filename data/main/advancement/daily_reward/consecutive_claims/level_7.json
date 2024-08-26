@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:diamond"
+        },
+        "title": "Nine-Month Nailer",
+        "description": "Log in every day for 9 consecutive months.",
+        "announce_to_chat": false
+    },
+    "parent": "main:daily_reward/consecutive_claims/level_6",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

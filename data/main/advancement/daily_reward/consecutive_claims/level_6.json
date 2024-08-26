@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:emerald"
+        },
+        "title": "Halfway Hero",
+        "description": "Log in every day for 6 consecutive months.",
+        "announce_to_chat": false
+    },
+    "parent": "main:daily_reward/consecutive_claims/level_5",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
