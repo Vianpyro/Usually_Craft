@@ -1,2 +1,3 @@
-function main:message/notice {"source":"Server","message":'"text":"Use the command `/survival` to join the survival server!","color":"aqua","clickEvent":{"action":"run_command","value":"/survival"},"hoverEvent":{"action":"show_text","contents":"/survival"}'}
+# In order to run, this function requires `function-permission-level=3` in server.properties
 execute at @s run playsound minecraft:entity.item.pickup ambient @s ~ ~ ~ 1 1
+transfer greenland.myddns.me 62000
