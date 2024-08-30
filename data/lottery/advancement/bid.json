@@ -8,7 +8,7 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "bid": {
+                            "lottery_trigger": {
                                 "min": 1
                             }
                         }
