@@ -1,13 +1,13 @@
 # Verify the player's bid
-execute if score @s bid matches ..9 run return run function lottery:error/bid_too_low
-execute if score @s bid > @s money run return run function lottery:error/insufficient_funds
+execute if score @s lottery_trigger matches ..9 run return run function lottery:error/bid_too_low
+execute if score @s lottery_trigger > @s money run return run function lottery:error/insufficient_funds
 
 # Verifiy that the player has not already bid
 execute if score @s lottery_bids matches 0.. run return run function lottery:error/already_joined
 
 # Store the bid
-scoreboard players operation @s lottery_bids = @s bid
-scoreboard players operation .total_bids lottery_scores += @s bid
+scoreboard players operation @s lottery_bids = @s lottery_trigger
+scoreboard players operation .total_bids lottery_scores += @s lottery_trigger
 
 # Reset the triggers
 function lottery:reset_triggers

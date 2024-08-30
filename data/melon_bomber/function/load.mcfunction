@@ -1,3 +1,6 @@
+# Create the scores
+function melon_bomber:setup/scores
+
 # Kill all block_display entities in the area
 execute as @e[type=block_display] at @s if predicate melon_bomber:in_area run kill @s
 

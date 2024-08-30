@@ -1,5 +1,5 @@
 # Score to trigger the loto game
-scoreboard objectives add bid trigger
+scoreboard objectives add lottery_trigger trigger
 
 # Score to store the players' bids
 scoreboard objectives add lottery_bids dummy
