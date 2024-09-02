@@ -1,5 +1,5 @@
 scoreboard players add .ray_radius buffer 1
-execute if score .ray_radius buffer > .ray_radius_max buffer run return run scoreboard players reset .ray_radius buffer
+execute if score .ray_radius buffer > .ray_radius_max buffer run scoreboard players set .ray_radius buffer 0
 
 particle minecraft:explosion ~ ~ ~ 0 0 0 0 1 force
 execute as @a[distance=..1,gamemode=adventure] run function melon_bomber:lose
